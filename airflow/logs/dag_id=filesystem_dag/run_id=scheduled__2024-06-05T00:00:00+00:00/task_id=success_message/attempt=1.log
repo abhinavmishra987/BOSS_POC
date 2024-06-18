@@ -1,0 +1,24 @@
+[2024-06-06T10:48:20.037+0530] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: filesystem_dag.success_message scheduled__2024-06-05T00:00:00+00:00 [queued]>
+[2024-06-06T10:48:20.040+0530] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: filesystem_dag.success_message scheduled__2024-06-05T00:00:00+00:00 [queued]>
+[2024-06-06T10:48:20.040+0530] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-06T10:48:20.040+0530] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2024-06-06T10:48:20.040+0530] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-06T10:48:20.047+0530] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): success_message> on 2024-06-05 00:00:00+00:00
+[2024-06-06T10:48:20.050+0530] {standard_task_runner.py:55} INFO - Started process 48005 to run task
+[2024-06-06T10:48:20.052+0530] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'filesystem_dag', 'success_message', 'scheduled__2024-06-05T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/filesystem_dag.py', '--cfg-path', '/tmp/tmpqknrfq6s']
+[2024-06-06T10:48:20.053+0530] {standard_task_runner.py:83} INFO - Job 22: Subtask success_message
+[2024-06-06T10:48:20.078+0530] {task_command.py:389} INFO - Running <TaskInstance: filesystem_dag.success_message scheduled__2024-06-05T00:00:00+00:00 [running]> on host purecipher002
+[2024-06-06T10:48:20.100+0530] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=filesystem_dag
+AIRFLOW_CTX_TASK_ID=success_message
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-05T00:00:00+00:00
+[2024-06-06T10:48:20.101+0530] {logging_mixin.py:137} INFO - Successfully completed all tasks!
+[2024-06-06T10:48:20.101+0530] {python.py:177} INFO - Done. Returned value was: None
+[2024-06-06T10:48:20.103+0530] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=filesystem_dag, task_id=success_message, execution_date=20240605T000000, start_date=20240606T051820, end_date=20240606T051820
+[2024-06-06T10:48:20.144+0530] {local_task_job.py:159} INFO - Task exited with return code 0
+[2024-06-06T10:48:20.153+0530] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

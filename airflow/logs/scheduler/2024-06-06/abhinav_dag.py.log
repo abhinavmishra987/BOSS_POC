@@ -1,0 +1,16 @@
+[2024-06-06T10:48:20.408+0530] {processor.py:153} INFO - Started process (PID=48006) to work on /home/e0002/airflow/dags/abhinav_dag.py
+[2024-06-06T10:48:20.408+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/abhinav_dag.py for tasks to queue
+[2024-06-06T10:48:20.409+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:20.409+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/abhinav_dag.py
+[2024-06-06T10:48:20.415+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-06T10:48:20.419+0530] {processor.py:753} INFO - DAG(s) dict_keys(['abhinav_dag']) retrieved from /home/e0002/airflow/dags/abhinav_dag.py
+[2024-06-06T10:48:20.434+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:20.434+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-06T10:48:20.446+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:20.446+0530] {dag.py:3423} INFO - Setting next_dagrun for abhinav_dag to 2024-06-06T00:00:00+00:00, run_after=2024-06-07T00:00:00+00:00
+[2024-06-06T10:48:20.456+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/abhinav_dag.py took 0.050 seconds
+[2024-06-06T10:48:56.185+0530] {processor.py:153} INFO - Started process (PID=48117) to work on /home/e0002/airflow/dags/abhinav_dag.py
+[2024-06-06T10:48:56.188+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/abhinav_dag.py for tasks to queue
+[2024-06-06T10:48:56.188+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:56.188+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/abhinav_dag.py
+[2024-06-06T10:48:56.196+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-06T10:48:56.200+0530] {processor.py:753} INFO - DAG(s) dict_keys(['abhinav_dag']) retrieved from /home/e0002/airflow/dags/abhinav_dag.py
+[2024-06-06T10:48:56.216+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:56.216+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-06T10:48:56.228+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:56.227+0530] {dag.py:3423} INFO - Setting next_dagrun for abhinav_dag to 2024-06-06T00:00:00+00:00, run_after=2024-06-07T00:00:00+00:00
+[2024-06-06T10:48:56.237+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/abhinav_dag.py took 0.054 seconds

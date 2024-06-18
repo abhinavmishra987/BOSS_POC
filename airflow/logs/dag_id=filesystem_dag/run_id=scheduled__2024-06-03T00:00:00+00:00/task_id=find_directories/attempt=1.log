@@ -1,0 +1,23 @@
+[2024-06-04T11:03:22.247+0530] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: filesystem_dag.find_directories scheduled__2024-06-03T00:00:00+00:00 [queued]>
+[2024-06-04T11:03:22.252+0530] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: filesystem_dag.find_directories scheduled__2024-06-03T00:00:00+00:00 [queued]>
+[2024-06-04T11:03:22.252+0530] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-04T11:03:22.252+0530] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2024-06-04T11:03:22.252+0530] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-04T11:03:22.261+0530] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): find_directories> on 2024-06-03 00:00:00+00:00
+[2024-06-04T11:03:22.265+0530] {standard_task_runner.py:55} INFO - Started process 7936 to run task
+[2024-06-04T11:03:22.267+0530] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'filesystem_dag', 'find_directories', 'scheduled__2024-06-03T00:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/filesystem_dag.py', '--cfg-path', '/tmp/tmp9b96j2rx']
+[2024-06-04T11:03:22.268+0530] {standard_task_runner.py:83} INFO - Job 9: Subtask find_directories
+[2024-06-04T11:03:22.295+0530] {task_command.py:389} INFO - Running <TaskInstance: filesystem_dag.find_directories scheduled__2024-06-03T00:00:00+00:00 [running]> on host purecipher002
+[2024-06-04T11:03:22.321+0530] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=filesystem_dag
+AIRFLOW_CTX_TASK_ID=find_directories
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-03T00:00:00+00:00
+[2024-06-04T11:03:31.508+0530] {python.py:177} INFO - Done. Returned value was: None
+[2024-06-04T11:03:31.511+0530] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=filesystem_dag, task_id=find_directories, execution_date=20240603T000000, start_date=20240604T053322, end_date=20240604T053331
+[2024-06-04T11:03:31.525+0530] {local_task_job.py:159} INFO - Task exited with return code 0
+[2024-06-04T11:03:31.534+0530] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

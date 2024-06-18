@@ -1,0 +1,16 @@
+[2024-06-06T10:48:18.972+0530] {processor.py:153} INFO - Started process (PID=47999) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-06T10:48:18.972+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-06T10:48:18.972+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:18.972+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-06T10:48:18.979+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-06T10:48:18.983+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-06T10:48:18.999+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:18.998+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-06T10:48:19.010+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:19.010+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-06T00:00:00+00:00, run_after=2024-06-07T00:00:00+00:00
+[2024-06-06T10:48:19.024+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.055 seconds
+[2024-06-06T10:48:55.602+0530] {processor.py:153} INFO - Started process (PID=48116) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-06T10:48:55.606+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-06T10:48:55.607+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:55.607+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-06T10:48:55.616+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-06T10:48:55.620+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-06T10:48:55.638+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:55.638+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-06T10:48:55.652+0530] {logging_mixin.py:137} INFO - [2024-06-06T10:48:55.652+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-06T00:00:00+00:00, run_after=2024-06-07T00:00:00+00:00
+[2024-06-06T10:48:55.663+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.063 seconds

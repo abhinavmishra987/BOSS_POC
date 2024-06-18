@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  openldap-server:
+    image: osixia/openldap:1.5.0
+    container_name: openldap-server
+    environment:
+      LDAP_ORGANISATION: "Example Inc."
+      LDAP_DOMAIN: "example.com"
+      LDAP_ADMIN_PASSWORD: "admin"
+    ports:
+      - "389:389"
+      - "636:636"
+
+  samba-ldap-webmin:
+    build: .
+    container_name: samba-ldap-webmin
+    environment:
+      - LDAP_URI=ldap://openldap-server
+      - LDAP_BASE_DN=dc=example,dc=com
+      - LDAP_BIND_DN=cn=admin,dc=example,dc=com
+      - LDAP_BIND_PW=admin
+    ports:
+      
+      - "88:88/udp"
+      - "88:88/tcp"
+      - "135:135/tcp"
+      - "137:137/udp"
+      - "138:138/udp"
+      - "139:139/tcp"
+      
+      - "445:445/tcp"
+      - "464:464/tcp"
+      - "464:464/udp"
+      
+      - "3268:3268/tcp"
+      - "3269:3269/tcp"
+      - "10000:10000/tcp"
+    depends_on:
+      - openldap-server
+    networks:
+      - default

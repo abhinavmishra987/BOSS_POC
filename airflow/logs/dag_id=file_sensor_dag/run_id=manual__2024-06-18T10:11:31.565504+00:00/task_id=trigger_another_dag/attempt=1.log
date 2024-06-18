@@ -1,0 +1,30 @@
+[2024-06-18T15:41:35.120+0530] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: file_sensor_dag.trigger_another_dag manual__2024-06-18T10:11:31.565504+00:00 [queued]>
+[2024-06-18T15:41:35.123+0530] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: file_sensor_dag.trigger_another_dag manual__2024-06-18T10:11:31.565504+00:00 [queued]>
+[2024-06-18T15:41:35.123+0530] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-18T15:41:35.123+0530] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2024-06-18T15:41:35.123+0530] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-18T15:41:35.130+0530] {taskinstance.py:1304} INFO - Executing <Task(TriggerDagRunOperator): trigger_another_dag> on 2024-06-18 10:11:31.565504+00:00
+[2024-06-18T15:41:35.133+0530] {standard_task_runner.py:55} INFO - Started process 249478 to run task
+[2024-06-18T15:41:35.135+0530] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'file_sensor_dag', 'trigger_another_dag', 'manual__2024-06-18T10:11:31.565504+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/file_sensor_dag.py', '--cfg-path', '/tmp/tmpnjaikx6t']
+[2024-06-18T15:41:35.136+0530] {standard_task_runner.py:83} INFO - Job 24: Subtask trigger_another_dag
+[2024-06-18T15:41:35.167+0530] {task_command.py:389} INFO - Running <TaskInstance: file_sensor_dag.trigger_another_dag manual__2024-06-18T10:11:31.565504+00:00 [running]> on host purecipher002
+[2024-06-18T15:41:35.198+0530] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=file_sensor_dag
+AIRFLOW_CTX_TASK_ID=trigger_another_dag
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-18T10:11:31.565504+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-06-18T10:11:31.565504+00:00
+[2024-06-18T15:41:35.203+0530] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/e0002/airflow/airflow_venv/lib/python3.10/site-packages/airflow/operators/trigger_dagrun.py", line 139, in execute
+    dag_run = trigger_dag(
+  File "/home/e0002/airflow/airflow_venv/lib/python3.10/site-packages/airflow/api/common/trigger_dag.py", line 119, in trigger_dag
+    raise DagNotFound(f"Dag id {dag_id} not found in DagModel")
+airflow.exceptions.DagNotFound: Dag id another_dag not found in DagModel
+[2024-06-18T15:41:35.204+0530] {taskinstance.py:1322} INFO - Marking task as UP_FOR_RETRY. dag_id=file_sensor_dag, task_id=trigger_another_dag, execution_date=20240618T101131, start_date=20240618T101135, end_date=20240618T101135
+[2024-06-18T15:41:35.209+0530] {standard_task_runner.py:100} ERROR - Failed to execute job 24 for task trigger_another_dag (Dag id another_dag not found in DagModel; 249478)
+[2024-06-18T15:41:35.227+0530] {local_task_job.py:159} INFO - Task exited with return code 1
+[2024-06-18T15:41:35.234+0530] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

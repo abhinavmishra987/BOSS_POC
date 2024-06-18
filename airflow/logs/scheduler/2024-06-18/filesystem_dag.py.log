@@ -1,0 +1,716 @@
+[2024-06-18T10:55:17.772+0530] {processor.py:153} INFO - Started process (PID=187387) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:55:17.773+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T10:55:17.774+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.774+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:55:17.782+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T10:55:17.786+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:55:17.857+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.857+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:filesystem_dag
+[2024-06-18T10:55:17.864+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.864+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:filesystem_dag
+[2024-06-18T10:55:17.870+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.869+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:filesystem_dag
+[2024-06-18T10:55:17.870+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.870+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T10:55:17.878+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.878+0530] {dag.py:2697} INFO - Creating ORM DAG for filesystem_dag
+[2024-06-18T10:55:17.884+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:55:17.884+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T10:55:17.895+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.125 seconds
+[2024-06-18T10:56:30.947+0530] {processor.py:153} INFO - Started process (PID=187881) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:56:30.949+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T10:56:30.950+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:56:30.950+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:56:30.963+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T10:56:30.970+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:56:30.995+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:56:30.995+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T10:56:31.012+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:56:31.012+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T10:56:31.031+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.088 seconds
+[2024-06-18T10:57:45.307+0530] {processor.py:153} INFO - Started process (PID=188305) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:57:45.309+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T10:57:45.310+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:57:45.310+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:57:45.319+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T10:57:45.324+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:57:45.347+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:57:45.347+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T10:57:45.363+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:57:45.363+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T10:57:45.375+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.071 seconds
+[2024-06-18T10:59:00.979+0530] {processor.py:153} INFO - Started process (PID=188815) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:59:00.981+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T10:59:00.982+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:59:00.982+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:59:00.989+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T10:59:00.993+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T10:59:01.009+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:59:01.009+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T10:59:01.024+0530] {logging_mixin.py:137} INFO - [2024-06-18T10:59:01.024+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T10:59:01.036+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.059 seconds
+[2024-06-18T11:00:15.438+0530] {processor.py:153} INFO - Started process (PID=189347) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:00:15.441+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:00:15.442+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:00:15.442+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:00:15.451+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:00:15.457+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:00:15.476+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:00:15.476+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:00:15.490+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:00:15.490+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:00:15.503+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.067 seconds
+[2024-06-18T11:01:32.552+0530] {processor.py:153} INFO - Started process (PID=190343) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:01:32.555+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:01:32.556+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:01:32.556+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:01:32.565+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:01:32.571+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:01:32.590+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:01:32.590+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:01:32.604+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:01:32.603+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:01:32.615+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.066 seconds
+[2024-06-18T11:02:48.670+0530] {processor.py:153} INFO - Started process (PID=191155) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:02:48.672+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:02:48.672+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:02:48.672+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:02:48.678+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:02:48.682+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:02:48.696+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:02:48.696+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:02:48.707+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:02:48.707+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:02:48.717+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.049 seconds
+[2024-06-18T11:04:28.188+0530] {processor.py:153} INFO - Started process (PID=192290) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:04:28.190+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:04:28.190+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:04:28.190+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:04:28.197+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:04:28.201+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:04:28.218+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:04:28.218+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:04:28.228+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:04:28.228+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:04:28.237+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.052 seconds
+[2024-06-18T11:05:42.507+0530] {processor.py:153} INFO - Started process (PID=193150) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:05:42.509+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:05:42.510+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:05:42.510+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:05:42.518+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:05:42.522+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:05:42.543+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:05:42.543+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:05:42.557+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:05:42.556+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:05:42.573+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.069 seconds
+[2024-06-18T11:07:03.356+0530] {processor.py:153} INFO - Started process (PID=194080) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:07:03.359+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:07:03.360+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:07:03.359+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:07:03.368+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:07:03.373+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:07:03.391+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:07:03.391+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:07:03.404+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:07:03.404+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:07:03.416+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.062 seconds
+[2024-06-18T11:08:19.025+0530] {processor.py:153} INFO - Started process (PID=194911) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:08:19.028+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:08:19.029+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:08:19.029+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:08:19.038+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:08:19.043+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:08:19.062+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:08:19.062+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:08:19.075+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:08:19.074+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:08:19.086+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.064 seconds
+[2024-06-18T11:09:34.128+0530] {processor.py:153} INFO - Started process (PID=195698) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:09:34.131+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:09:34.132+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:09:34.132+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:09:34.144+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:09:34.151+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:09:34.181+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:09:34.181+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:09:34.196+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:09:34.195+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:09:34.213+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.087 seconds
+[2024-06-18T11:10:52.404+0530] {processor.py:153} INFO - Started process (PID=196485) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:10:52.407+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:10:52.408+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:10:52.407+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:10:52.417+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:10:52.422+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:10:52.443+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:10:52.443+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:10:52.458+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:10:52.458+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:10:52.471+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.070 seconds
+[2024-06-18T11:12:09.438+0530] {processor.py:153} INFO - Started process (PID=197356) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:12:09.441+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:12:09.442+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:12:09.442+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:12:09.451+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:12:09.456+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:12:09.477+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:12:09.477+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:12:09.490+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:12:09.490+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:12:09.503+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.069 seconds
+[2024-06-18T11:13:27.097+0530] {processor.py:153} INFO - Started process (PID=198164) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:13:27.100+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:13:27.101+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:13:27.101+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:13:27.108+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:13:27.112+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:13:27.129+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:13:27.129+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:13:27.139+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:13:27.139+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:13:27.149+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.055 seconds
+[2024-06-18T11:14:43.510+0530] {processor.py:153} INFO - Started process (PID=199042) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:14:43.512+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:14:43.513+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:14:43.513+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:14:43.522+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:14:43.527+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:14:43.545+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:14:43.545+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:14:43.559+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:14:43.559+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:14:43.571+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.064 seconds
+[2024-06-18T11:16:00.795+0530] {processor.py:153} INFO - Started process (PID=199876) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:16:00.796+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:16:00.797+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:16:00.797+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:16:00.804+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:16:00.809+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:16:00.829+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:16:00.828+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:16:00.842+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:16:00.842+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:16:00.855+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.062 seconds
+[2024-06-18T11:17:17.819+0530] {processor.py:153} INFO - Started process (PID=200692) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:17:17.822+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:17:17.823+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:17:17.823+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:17:17.831+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:17:17.835+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:17:17.853+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:17:17.853+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:17:17.864+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:17:17.864+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:17:17.874+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.058 seconds
+[2024-06-18T11:18:34.402+0530] {processor.py:153} INFO - Started process (PID=201486) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:18:34.406+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:18:34.406+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:18:34.406+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:18:34.416+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:18:34.421+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:18:34.443+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:18:34.443+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:18:34.458+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:18:34.457+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:18:34.473+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.074 seconds
+[2024-06-18T11:19:51.651+0530] {processor.py:153} INFO - Started process (PID=202282) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:19:51.653+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:19:51.653+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:19:51.653+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:19:51.662+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:19:51.666+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:19:51.685+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:19:51.685+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:19:51.702+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:19:51.701+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:19:51.721+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.072 seconds
+[2024-06-18T11:21:09.203+0530] {processor.py:153} INFO - Started process (PID=203220) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:21:09.206+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:21:09.207+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:21:09.207+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:21:09.220+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:21:09.229+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:21:09.258+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:21:09.257+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:21:09.272+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:21:09.272+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:21:09.285+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.085 seconds
+[2024-06-18T11:22:27.536+0530] {processor.py:153} INFO - Started process (PID=204066) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:22:27.539+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:22:27.541+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:22:27.540+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:22:27.553+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:22:27.560+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:22:27.590+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:22:27.590+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:22:27.611+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:22:27.611+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:22:27.632+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.099 seconds
+[2024-06-18T11:23:57.429+0530] {processor.py:153} INFO - Started process (PID=205035) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:23:57.433+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:23:57.434+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:23:57.433+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:23:57.443+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:23:57.448+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:23:57.468+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:23:57.468+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:23:57.482+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:23:57.482+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:23:57.495+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.070 seconds
+[2024-06-18T11:25:13.142+0530] {processor.py:153} INFO - Started process (PID=205812) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:25:13.143+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:25:13.143+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:25:13.143+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:25:13.152+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:25:13.157+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:25:13.176+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:25:13.176+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:25:13.189+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:25:13.189+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:25:13.201+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.062 seconds
+[2024-06-18T11:26:31.468+0530] {processor.py:153} INFO - Started process (PID=206666) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:26:31.471+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:26:31.472+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:26:31.472+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:26:31.481+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:26:31.486+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:26:31.506+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:26:31.506+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:26:31.519+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:26:31.519+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:26:31.532+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.067 seconds
+[2024-06-18T11:27:54.977+0530] {processor.py:153} INFO - Started process (PID=207567) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:27:54.979+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:27:54.980+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:27:54.980+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:27:54.990+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:27:54.997+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:27:55.020+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:27:55.020+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:27:55.036+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:27:55.035+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:27:55.302+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.328 seconds
+[2024-06-18T11:29:20.546+0530] {processor.py:153} INFO - Started process (PID=208476) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:29:20.547+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:29:20.547+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:29:20.547+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:29:20.555+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:29:20.560+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:29:20.580+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:29:20.580+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:29:20.593+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:29:20.593+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:29:20.605+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.062 seconds
+[2024-06-18T11:30:41.964+0530] {processor.py:153} INFO - Started process (PID=209286) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:30:41.968+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:30:41.969+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:30:41.968+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:30:41.978+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:30:41.983+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:30:42.002+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:30:42.002+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:30:42.015+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:30:42.015+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:30:42.031+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.069 seconds
+[2024-06-18T11:32:03.327+0530] {processor.py:153} INFO - Started process (PID=210180) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:32:03.330+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T11:32:03.330+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:32:03.330+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:32:03.337+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T11:32:03.341+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T11:32:03.357+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:32:03.357+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T11:32:03.368+0530] {logging_mixin.py:137} INFO - [2024-06-18T11:32:03.367+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T11:32:03.380+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.054 seconds
+[2024-06-18T14:39:57.494+0530] {processor.py:153} INFO - Started process (PID=210974) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:39:57.496+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:39:57.497+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:39:57.497+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:39:57.503+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:39:57.507+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:39:57.523+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:39:57.523+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:39:57.536+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:39:57.536+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:39:57.547+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.055 seconds
+[2024-06-18T14:41:11.588+0530] {processor.py:153} INFO - Started process (PID=211734) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:41:11.591+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:41:11.591+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:41:11.591+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:41:11.599+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:41:11.603+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:41:11.620+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:41:11.620+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:41:11.632+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:41:11.632+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:41:11.643+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.057 seconds
+[2024-06-18T14:42:33.203+0530] {processor.py:153} INFO - Started process (PID=212650) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:42:33.205+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:42:33.206+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:42:33.206+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:42:33.217+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:42:33.224+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:42:33.247+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:42:33.247+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:42:33.262+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:42:33.261+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:42:33.275+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.075 seconds
+[2024-06-18T14:43:52.596+0530] {processor.py:153} INFO - Started process (PID=213434) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:43:52.598+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:43:52.599+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:43:52.598+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:43:52.606+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:43:52.610+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:43:52.627+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:43:52.626+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:43:52.639+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:43:52.639+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:43:52.762+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.169 seconds
+[2024-06-18T14:45:13.975+0530] {processor.py:153} INFO - Started process (PID=214377) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:45:13.976+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:45:13.976+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:45:13.976+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:45:13.983+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:45:13.988+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:45:14.006+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:45:14.006+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:45:14.020+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:45:14.020+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:45:14.033+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.060 seconds
+[2024-06-18T14:46:29.335+0530] {processor.py:153} INFO - Started process (PID=215183) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:46:29.337+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:46:29.337+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:46:29.337+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:46:29.344+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:46:29.348+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:46:29.364+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:46:29.364+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:46:29.375+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:46:29.375+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:46:29.386+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.053 seconds
+[2024-06-18T14:49:56.986+0530] {processor.py:153} INFO - Started process (PID=217354) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:49:56.987+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:49:56.987+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:49:56.987+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:49:56.993+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:49:56.993+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:49:57.005+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:49:57.005+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:49:57.017+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:49:57.017+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:49:57.030+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.047 seconds
+[2024-06-18T14:51:13.411+0530] {processor.py:153} INFO - Started process (PID=218149) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:51:13.413+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:51:13.414+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:51:13.414+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:51:13.421+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:51:13.421+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:51:13.433+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:51:13.433+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:51:13.442+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:51:13.442+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:51:13.453+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.044 seconds
+[2024-06-18T14:52:29.196+0530] {processor.py:153} INFO - Started process (PID=218927) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:52:29.198+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:52:29.199+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:52:29.199+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:52:29.205+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:52:29.205+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:52:29.218+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:52:29.218+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:52:29.229+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:52:29.229+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:52:29.241+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.048 seconds
+[2024-06-18T14:53:45.243+0530] {processor.py:153} INFO - Started process (PID=219756) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:53:45.245+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:53:45.246+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:53:45.246+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:53:45.252+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:53:45.253+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:53:45.265+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:53:45.265+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:53:45.276+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:53:45.276+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:53:45.287+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.047 seconds
+[2024-06-18T14:55:02.219+0530] {processor.py:153} INFO - Started process (PID=220542) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:55:02.221+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:55:02.222+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:55:02.222+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:55:02.228+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:55:02.229+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:55:02.242+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:55:02.242+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:55:02.253+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:55:02.253+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:55:02.265+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.048 seconds
+[2024-06-18T14:56:16.633+0530] {processor.py:153} INFO - Started process (PID=221351) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:56:16.635+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:56:16.635+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:56:16.635+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:56:16.642+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:56:16.642+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:56:16.654+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:56:16.654+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:56:16.665+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:56:16.665+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:56:16.675+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T14:57:32.973+0530] {processor.py:153} INFO - Started process (PID=222151) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:57:32.975+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:57:32.976+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:57:32.976+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:57:32.981+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:57:32.982+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:57:32.995+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:57:32.995+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:57:33.007+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:57:33.007+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:57:33.021+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.051 seconds
+[2024-06-18T14:58:49.533+0530] {processor.py:153} INFO - Started process (PID=223093) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:58:49.535+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T14:58:49.536+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:58:49.536+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:58:49.543+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T14:58:49.544+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T14:58:49.557+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:58:49.557+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T14:58:49.568+0530] {logging_mixin.py:137} INFO - [2024-06-18T14:58:49.567+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T14:58:49.580+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.049 seconds
+[2024-06-18T15:00:03.945+0530] {processor.py:153} INFO - Started process (PID=223859) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:00:03.946+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:00:03.947+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:00:03.947+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:00:03.953+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:00:03.953+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:00:03.966+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:00:03.966+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:00:03.977+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:00:03.977+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:00:03.988+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T15:01:21.840+0530] {processor.py:153} INFO - Started process (PID=224661) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:01:21.842+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:01:21.842+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:01:21.842+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:01:21.849+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:01:21.849+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:01:21.861+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:01:21.861+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:01:21.871+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:01:21.871+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:01:21.884+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.047 seconds
+[2024-06-18T15:02:37.935+0530] {processor.py:153} INFO - Started process (PID=225492) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:02:37.937+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:02:37.938+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:02:37.938+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:02:37.944+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:02:37.945+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:02:37.957+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:02:37.957+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:02:37.967+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:02:37.967+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:02:37.978+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T15:03:54.845+0530] {processor.py:153} INFO - Started process (PID=226357) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:03:54.846+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:03:54.846+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:03:54.846+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:03:54.852+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:03:54.853+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:03:54.866+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:03:54.866+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:03:54.876+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:03:54.876+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:03:54.888+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.046 seconds
+[2024-06-18T15:05:11.893+0530] {processor.py:153} INFO - Started process (PID=227197) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:05:11.895+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:05:11.895+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:05:11.895+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:05:11.901+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:05:11.902+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:05:11.912+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:05:11.912+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:05:11.921+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:05:11.921+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:05:11.930+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.039 seconds
+[2024-06-18T15:06:27.791+0530] {processor.py:153} INFO - Started process (PID=227943) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:06:27.793+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:06:27.793+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:06:27.793+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:06:27.799+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:06:27.799+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:06:27.810+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:06:27.809+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:06:27.819+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:06:27.819+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:06:27.828+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.039 seconds
+[2024-06-18T15:07:44.238+0530] {processor.py:153} INFO - Started process (PID=228753) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:07:44.240+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:07:44.240+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:07:44.240+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:07:44.246+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:07:44.247+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:07:44.259+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:07:44.259+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:07:44.270+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:07:44.270+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:07:44.283+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.048 seconds
+[2024-06-18T15:09:00.706+0530] {processor.py:153} INFO - Started process (PID=229552) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:09:00.708+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:09:00.709+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:09:00.709+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:09:00.716+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:09:00.716+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:09:00.728+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:09:00.728+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:09:00.738+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:09:00.738+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:09:00.749+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T15:10:16.105+0530] {processor.py:153} INFO - Started process (PID=230383) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:10:16.108+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:10:16.109+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:10:16.109+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:10:16.117+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:10:16.118+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:10:16.133+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:10:16.132+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:10:16.144+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:10:16.144+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:10:16.156+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.054 seconds
+[2024-06-18T15:11:33.832+0530] {processor.py:153} INFO - Started process (PID=231210) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:11:33.834+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:11:33.835+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:11:33.835+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:11:33.843+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:11:33.843+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:11:33.858+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:11:33.858+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:11:33.870+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:11:33.870+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:11:33.885+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.056 seconds
+[2024-06-18T15:12:50.410+0530] {processor.py:153} INFO - Started process (PID=231978) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:12:50.413+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:12:50.414+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:12:50.414+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:12:50.424+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:12:50.424+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:12:50.440+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:12:50.440+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:12:50.452+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:12:50.452+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:12:50.468+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.061 seconds
+[2024-06-18T15:14:08.710+0530] {processor.py:153} INFO - Started process (PID=232810) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:14:08.711+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:14:08.711+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:14:08.711+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:14:08.719+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:14:08.720+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:14:08.736+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:14:08.736+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:14:08.748+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:14:08.748+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:14:08.760+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.054 seconds
+[2024-06-18T15:15:27.554+0530] {processor.py:153} INFO - Started process (PID=233599) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:15:27.557+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:15:27.558+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:15:27.558+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:15:27.566+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:15:27.567+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:15:27.581+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:15:27.581+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:15:27.591+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:15:27.591+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:15:27.605+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.054 seconds
+[2024-06-18T15:16:44.688+0530] {processor.py:153} INFO - Started process (PID=234361) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:16:44.690+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:16:44.691+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:16:44.691+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:16:44.700+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:16:44.701+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:16:44.716+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:16:44.716+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:16:44.729+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:16:44.729+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:16:44.741+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.056 seconds
+[2024-06-18T15:18:01.798+0530] {processor.py:153} INFO - Started process (PID=235177) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:18:01.800+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:18:01.801+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:18:01.801+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:18:01.807+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:18:01.808+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:18:01.820+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:18:01.820+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:18:01.829+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:18:01.829+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:18:01.841+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T15:19:18.953+0530] {processor.py:153} INFO - Started process (PID=236006) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:19:18.956+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:19:18.957+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:19:18.956+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:19:18.966+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:19:18.966+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:19:18.982+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:19:18.982+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:19:18.995+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:19:18.995+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:19:19.007+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.057 seconds
+[2024-06-18T15:20:39.417+0530] {processor.py:153} INFO - Started process (PID=236794) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:20:39.418+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:20:39.419+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:20:39.419+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:20:39.426+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:20:39.427+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:20:39.441+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:20:39.440+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:20:39.451+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:20:39.451+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:20:39.462+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.047 seconds
+[2024-06-18T15:21:55.425+0530] {processor.py:153} INFO - Started process (PID=237610) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:21:55.428+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:21:55.429+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:21:55.428+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:21:55.438+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:21:55.438+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:21:55.453+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:21:55.453+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:21:55.465+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:21:55.465+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:21:55.477+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.055 seconds
+[2024-06-18T15:23:14.702+0530] {processor.py:153} INFO - Started process (PID=238407) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:23:14.705+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:23:14.706+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:23:14.706+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:23:14.713+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:23:14.713+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:23:14.725+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:23:14.725+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:23:14.735+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:23:14.735+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:23:14.748+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.048 seconds
+[2024-06-18T15:24:31.291+0530] {processor.py:153} INFO - Started process (PID=239373) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:24:31.292+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:24:31.293+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:24:31.293+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:24:31.300+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:24:31.301+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:24:31.316+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:24:31.316+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:24:31.328+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:24:31.328+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:24:31.343+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.055 seconds
+[2024-06-18T15:25:48.591+0530] {processor.py:153} INFO - Started process (PID=240159) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:25:48.594+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:25:48.595+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:25:48.595+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:25:48.603+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:25:48.603+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:25:48.618+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:25:48.618+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:25:48.630+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:25:48.630+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:25:48.642+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.054 seconds
+[2024-06-18T15:27:06.621+0530] {processor.py:153} INFO - Started process (PID=240994) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:27:06.624+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:27:06.625+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:27:06.625+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:27:06.635+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:27:06.635+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:27:06.652+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:27:06.651+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:27:06.664+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:27:06.664+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:27:06.676+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.058 seconds
+[2024-06-18T15:28:23.773+0530] {processor.py:153} INFO - Started process (PID=241757) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:28:23.776+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:28:23.777+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:28:23.776+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:28:23.784+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:28:23.784+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:28:23.797+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:28:23.797+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:28:23.807+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:28:23.807+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:28:23.821+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.050 seconds
+[2024-06-18T15:31:29.371+0530] {processor.py:153} INFO - Started process (PID=242914) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:31:29.373+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:31:29.373+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:31:29.373+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:31:29.381+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:31:29.382+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:31:29.396+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:31:29.396+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:31:29.407+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:31:29.407+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:31:29.418+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.051 seconds
+[2024-06-18T15:32:47.804+0530] {processor.py:153} INFO - Started process (PID=243681) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:32:47.806+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:32:47.807+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:32:47.807+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:32:47.814+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:32:47.815+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:32:47.827+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:32:47.827+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:32:47.837+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:32:47.837+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:32:47.848+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.046 seconds
+[2024-06-18T15:34:05.775+0530] {processor.py:153} INFO - Started process (PID=244569) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:34:05.776+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:34:05.777+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:34:05.777+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:34:05.783+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:34:05.783+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:34:05.794+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:34:05.794+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:34:05.805+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:34:05.805+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:34:05.816+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.043 seconds
+[2024-06-18T15:35:21.850+0530] {processor.py:153} INFO - Started process (PID=245357) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:35:21.851+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:35:21.851+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:35:21.851+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:35:21.859+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:35:21.859+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:35:21.875+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:35:21.875+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:35:21.886+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:35:21.885+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:35:21.897+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.050 seconds
+[2024-06-18T15:36:41.962+0530] {processor.py:153} INFO - Started process (PID=246373) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:36:41.963+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:36:41.964+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:36:41.964+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:36:41.970+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:36:41.971+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:36:41.981+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:36:41.980+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:36:41.990+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:36:41.990+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:36:42.001+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.041 seconds
+[2024-06-18T15:37:57.867+0530] {processor.py:153} INFO - Started process (PID=247162) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:37:57.869+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:37:57.869+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:37:57.869+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:37:57.876+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:37:57.876+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:37:57.889+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:37:57.889+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:37:57.899+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:37:57.899+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:37:57.911+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.046 seconds
+[2024-06-18T15:39:15.719+0530] {processor.py:153} INFO - Started process (PID=247977) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:39:15.721+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:39:15.722+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:39:15.722+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:39:15.728+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:39:15.729+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:39:15.740+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:39:15.740+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:39:15.750+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:39:15.750+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:39:15.761+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.043 seconds
+[2024-06-18T15:40:31.600+0530] {processor.py:153} INFO - Started process (PID=248883) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:40:31.601+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:40:31.601+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:40:31.601+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:40:31.606+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:40:31.607+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:40:31.618+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:40:31.617+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:40:31.627+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:40:31.627+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:40:31.637+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.040 seconds
+[2024-06-18T15:41:53.119+0530] {processor.py:153} INFO - Started process (PID=249655) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:41:53.121+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:41:53.122+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:41:53.122+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:41:53.128+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:41:53.129+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:41:53.141+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:41:53.141+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:41:53.152+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:41:53.152+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:41:53.170+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.053 seconds
+[2024-06-18T15:43:11.078+0530] {processor.py:153} INFO - Started process (PID=250515) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:43:11.080+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:43:11.080+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:43:11.080+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:43:11.086+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:43:11.087+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:43:11.099+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:43:11.099+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:43:11.109+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:43:11.109+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:43:11.120+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.044 seconds
+[2024-06-18T15:44:29.274+0530] {processor.py:153} INFO - Started process (PID=251271) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:44:29.277+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:44:29.278+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:44:29.278+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:44:29.283+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:44:29.284+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:44:29.295+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:44:29.295+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:44:29.304+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:44:29.304+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:44:29.314+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.042 seconds
+[2024-06-18T15:45:45.311+0530] {processor.py:153} INFO - Started process (PID=252064) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:45:45.313+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:45:45.314+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:45:45.314+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:45:45.320+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:45:45.320+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:45:45.332+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:45:45.331+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:45:45.341+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:45:45.341+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:45:45.351+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.042 seconds
+[2024-06-18T15:47:01.216+0530] {processor.py:153} INFO - Started process (PID=252933) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:47:01.219+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:47:01.219+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:47:01.219+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:47:01.225+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:47:01.226+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:47:01.236+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:47:01.236+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:47:01.248+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:47:01.247+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:47:01.257+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.043 seconds
+[2024-06-18T15:48:18.226+0530] {processor.py:153} INFO - Started process (PID=253734) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:48:18.228+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:48:18.229+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:48:18.229+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:48:18.235+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:48:18.235+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:48:18.248+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:48:18.248+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:48:18.258+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:48:18.258+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:48:18.270+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.046 seconds
+[2024-06-18T15:49:34.133+0530] {processor.py:153} INFO - Started process (PID=254552) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:49:34.134+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:49:34.135+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:49:34.135+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:49:34.141+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:49:34.142+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:49:34.154+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:49:34.153+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:49:34.164+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:49:34.164+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:49:34.176+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.044 seconds
+[2024-06-18T15:50:50.033+0530] {processor.py:153} INFO - Started process (PID=255300) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:50:50.034+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:50:50.034+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:50:50.034+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:50:50.040+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:50:50.041+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:50:50.053+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:50:50.053+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:50:50.063+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:50:50.063+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:50:50.075+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.044 seconds
+[2024-06-18T15:52:07.071+0530] {processor.py:153} INFO - Started process (PID=256065) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:52:07.073+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:52:07.074+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:52:07.074+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:52:07.080+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:52:07.081+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:52:07.093+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:52:07.093+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:52:07.103+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:52:07.103+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:52:07.114+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T15:53:24.106+0530] {processor.py:153} INFO - Started process (PID=256896) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:53:24.108+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:53:24.109+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:53:24.109+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:53:24.115+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:53:24.115+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:53:24.126+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:53:24.126+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:53:24.136+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:53:24.135+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:53:24.146+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.042 seconds
+[2024-06-18T15:54:41.128+0530] {processor.py:153} INFO - Started process (PID=257756) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:54:41.130+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:54:41.131+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:54:41.131+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:54:41.137+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:54:41.137+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:54:41.149+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:54:41.149+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:54:41.160+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:54:41.160+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:54:41.171+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.045 seconds
+[2024-06-18T15:55:58.017+0530] {processor.py:153} INFO - Started process (PID=258551) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:55:58.020+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:55:58.021+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:55:58.021+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:55:58.027+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:55:58.028+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:55:58.040+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:55:58.040+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:55:58.050+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:55:58.050+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:55:58.061+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.046 seconds
+[2024-06-18T15:57:15.171+0530] {processor.py:153} INFO - Started process (PID=259413) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:57:15.175+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:57:15.176+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:57:15.176+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:57:15.185+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:57:15.186+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:57:15.202+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:57:15.202+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:57:15.215+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:57:15.215+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:57:15.231+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.063 seconds
+[2024-06-18T15:58:31.138+0530] {processor.py:153} INFO - Started process (PID=260198) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:58:31.139+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:58:31.140+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:58:31.140+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:58:31.148+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:58:31.149+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:58:31.164+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:58:31.164+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:58:31.176+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:58:31.176+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:58:31.189+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.054 seconds
+[2024-06-18T15:59:49.145+0530] {processor.py:153} INFO - Started process (PID=261027) to work on /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:59:49.148+0530] {processor.py:743} INFO - Processing file /home/e0002/airflow/dags/filesystem_dag.py for tasks to queue
+[2024-06-18T15:59:49.149+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:59:49.149+0530] {dagbag.py:538} INFO - Filling up the DagBag from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:59:49.158+0530] {logging_mixin.py:137} INFO - DAG loaded successfully
+[2024-06-18T15:59:49.159+0530] {processor.py:753} INFO - DAG(s) dict_keys(['filesystem_dag']) retrieved from /home/e0002/airflow/dags/filesystem_dag.py
+[2024-06-18T15:59:49.174+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:59:49.174+0530] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-06-18T15:59:49.187+0530] {logging_mixin.py:137} INFO - [2024-06-18T15:59:49.187+0530] {dag.py:3423} INFO - Setting next_dagrun for filesystem_dag to 2024-06-17T00:00:00+00:00, run_after=2024-06-18T00:00:00+00:00
+[2024-06-18T15:59:49.199+0530] {processor.py:175} INFO - Processing /home/e0002/airflow/dags/filesystem_dag.py took 0.057 seconds
